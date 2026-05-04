@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets and credentials
+.env
+*.pem
+*.key
+*.crt
+credentials.json
+token.json
+
+# Logs and run outputs
+logs/
+runs/
+outputs/
+results/
+figures/raw/
+wandb/
+mlruns/
+
+# Large arrays / checkpoints
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.joblib
+
+# Reservoir simulation inputs / outputs
+data/
+reservoir_data/
+simulation_outputs/
+realizations/
+deck_runs/
+*.UNRST
+*.INIT
+*.EGRID
+*.SMSPEC
+*.UNSMRY
+*.PRT
+*.DBG
+*.LOG
+
+# Paper drafts / review material
+paper/*.pdf
